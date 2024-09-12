@@ -1,0 +1,30 @@
+{% extends 'main/layout.html'%}
+
+{% block title %}
+Список задач
+{% endblock %}
+{% block content %}
+  <div class="features">
+      <h1>{{ title }}</h1>
+    <table cellspacing="0" cellpadding="0" class="user-table">
+   <tr id="user-table-top">
+      <th>
+         <h3>Имя задачи</h3>
+      </th>
+        <th>
+         <h3>Краткое описание</h3>
+      </th>
+               <th>
+         <h3>Выполнена</h3>
+      </th>
+      <th>
+         <h3>Изменить задачу</h3>
+      </th>
+      <th>
+         <h3>Удалить</h3>
+      </th>
+   </tr>
+     {% include 'todolist/taskselect.html' %}
+   </table>
+  </div>
+{% endblock %}

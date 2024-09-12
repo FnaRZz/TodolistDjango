@@ -5,4 +5,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('main.urls')),
     path('users/', include('user.urls')),
+    path('task/', include('todo.urls')),
 ]

@@ -1,0 +1,97 @@
+body{
+    background:white
+}
+aside{
+    float:left;
+    background:#ff925c;
+    width:20%;
+    padding:3%;
+    height:100vh;
+    color:#3D405B;
+    border-right: 5px solid #ffb28b;
+}
+aside img{
+    width:225px;
+    float:left;}
+
+aside .logo{
+    font-size: 40px;
+    font-weight: bold;
+}
+aside h3{
+    margin-top:50px;
+    font-size:25px;
+}
+aside ul{
+    list-style:none;
+}
+aside ul li{
+    color:#3D405B;
+    display: block;
+    margin-top:20px;
+    transition: transform .3s ease;
+    }
+aside ul li:hover, aside ul a:hover{
+    color: #f4f1de;
+    text-decoration:none;
+    transform: scale(1.05);
+}
+main .features{
+    color:#3D405B;
+    float:left;
+    margin-top:100px;
+    text-align:center;
+    width:75%;
+}
+main .features h1{
+font-size:50px;
+}
+main .features p{
+max-width:400px;
+margin: 20px auto;}
+
+form{
+margin-top:50px;
+margin-left:33%;
+width:500px;
+}
+.badge-wrap{
+display:flex;
+flex-wrap: wrap;
+}
+.user-table {
+    margin: 50px auto;
+    table-layout: fixed;
+}
+.user-table tr:nth-child(odd) {
+    background-color: rgba(22, 43, 68, 0.2);
+}
+.user-table tr:nth-child(even) {
+    background-color: rgba(222, 208, 237, 0.02);
+}
+.user-table th {
+    padding: 15px 30px;
+}
+.user-table th button {
+    border: none;
+    background-color: transparent !important;
+    font-size: 1.5em;
+}
+.fa-edit {
+    color: rgb(70, 182, 107);
+    cursor: pointer;
+}
+.fa-user-times {
+    color: rgb(218, 69, 69);
+    cursor: pointer;
+}
+#user-table-top {
+    background-color: rgba(22, 43, 68, 0.4);
+}
+.alert-warning{
+    float: left;
+    clear: both;
+    width: 400px;
+    margin: 20px 34%;
+    text-align: left;
+}
