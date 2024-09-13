@@ -18,7 +18,7 @@
 
 </style>
 {%if task%}
-{% for tasks in task %}
+{% for tasks in user.task.all %}
 <tr>
       <th>
          <h5>{{tasks.task_name}}</h5>

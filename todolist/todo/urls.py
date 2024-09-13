@@ -2,5 +2,6 @@ from django.urls import path
 from . import views
 
 urlpatterns = [
-    path('',views.task,name="task")
+    path('',views.task,name="task"),
+    # path('/<int:id>/')
 ]
