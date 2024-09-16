@@ -6,6 +6,8 @@
 {% block content %}
   <div class="features">
       <h1>{{ title }}</h1>
-
+      {%for us in user%}
+      {{us.id.name}}
+      {%endfor%}
   </div>
 {% endblock %}
